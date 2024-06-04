@@ -9,6 +9,7 @@ import './App.css';
 import Profile from './components/Profile/Profile';
 import Navbar from './components/Navbar/Navbar';
 import SearchPage from './components/SearchPage/SearchPage';
+import DetailsPage from './components/DetailsPage/DetailsPage';
 function App() {
   const navigate = useNavigate();
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/app/register" element={<RegisterPage />} />
           <Route path="/app/profile" element={<Profile/>} />
           <Route path="/app/search" element={<SearchPage/>} />
+          <Route path="/app/product/:productId" element={<DetailsPage/>} />
         </Routes>
         </>
   );
