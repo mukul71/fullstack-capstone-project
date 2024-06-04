@@ -74,4 +74,3 @@ function MainPage() {
     );
 }
 export default MainPage;
-//updated
