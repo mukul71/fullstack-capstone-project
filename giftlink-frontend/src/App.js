@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Profile from './components/Profile/Profile';
 import Navbar from './components/Navbar/Navbar';
+import SearchPage from './components/SearchPage/SearchPage';
 function App() {
   const navigate = useNavigate();
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/app/login" element={<LoginPage/>} />
           <Route path="/app/register" element={<RegisterPage />} />
           <Route path="/app/profile" element={<Profile/>} />
+          <Route path="/app/search" element={<SearchPage/>} />
         </Routes>
         </>
   );
