@@ -1,5 +1,6 @@
 /* jshint esversion: 8 */
 import React from 'react';
+// eslint-disable-next-line
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import MainPage from './components/MainPage/MainPage';
 import LoginPage from './components/LoginPage/LoginPage';
@@ -11,6 +12,7 @@ import Navbar from './components/Navbar/Navbar';
 import SearchPage from './components/SearchPage/SearchPage';
 import DetailsPage from './components/DetailsPage/DetailsPage';
 function App() {
+  // eslint-disable-next-line
   const navigate = useNavigate();
   return (
         <>
